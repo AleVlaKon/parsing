@@ -1,10 +1,31 @@
-import requests
+from bs4 import BeautifulSoup
 
-# Отправляем GET-запрос
-r = requests.get('https://api.github.com/events')
+html_doc = """
+<html>
+    <head>
+        <title>Example Page</title>
+    </head>
+    <body>
+        <div id="main">
+            <h1>Hello World</h1>
+            <p class="info">This is a paragraph.</p>
+            <p class="info">This is another paragraph.</p>
+            <ul>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+            </ul>
+        </div>
+        <div id="secondary">
+            <p>Some additional information.</p>
+        </div>
+    </body>
+</html>
+"""
 
-# Получаем текст ответа
-print("Содержимое ответа:")
-print(r.text)
+soup = BeautifulSoup(html_doc, 'html.parser')
 
-print("Текущая кодировка:", r.encoding)
+# Найти все теги p в HTML-документе, включая те, что находятся внутри вложенных тегов.
+all_p_tags = soup.find_all('p')
+for i in all_p_tags:
+    print(i)
