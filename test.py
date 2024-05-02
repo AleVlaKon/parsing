@@ -1,10 +1,12 @@
 import requests
 
-# Отправляем GET-запрос
-r = requests.get('https://api.github.com/events')
+response = requests.get(url='https://parsinger.ru/3.4/2/index.html')
+response.encoding = 'UTF-8'
+print(response.text)
 
-# Получаем текст ответа
-print("Содержимое ответа:")
-print(r.text)
 
-print("Текущая кодировка:", r.encoding)
+# Проверка статуса ответа
+if response.status_code == 200:
+    print("Запрос успешно выполнен")
+else:
+    print(f"Произошла ошибка: {r.status_code}")
