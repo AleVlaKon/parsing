@@ -1,32 +1,34 @@
 from bs4 import BeautifulSoup
 
-html_doc = """
-<html>
-    <head>
-        <title>Example Page</title>
-    </head>
-    <body>
-        <div id="main">
-            <h1>Hello World</h1>
-            <p class="info">This is a paragraph.</p>
-            <p class="info">This is another paragraph.</p>
-            <ul>
-                <li>Item 1</li>
-                <li>Item 2</li>
-                <li>Item 3</li>
-            </ul>
-        </div>
-        <div id="secondary">
-            <p>Some additional information.</p>
-        </div>
-    </body>
+html = '''
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Пример .parent</title>
+</head>
+
+<body>
+<div id="parent-container">
+    <h1 id="main-heading">Заголовок (.parent)</h1>
+    <p id="paragraph">Текст абзаца ()</p>
+    
+    <ul id="list">
+        <li class="list-item">Элемент списка 1</li>
+        <li class="list-item">Элемент списка 2</li>
+    </ul>
+</div>
+
+</body>
 </html>
-"""
 
-soup = BeautifulSoup(html_doc, 'html.parser')
+'''
 
-# Найти все теги p в HTML-документе, включая те, что находятся внутри вложенных тегов.
-all_p_tags = soup.find_all('p')
-for i in all_p_tags:
-    print(i)
+soup = BeautifulSoup(html, "html.parser")
+li_elem = soup.find('li', class_='list-item')
+parent_elem = li_elem.parent
 
+# Выводим содержимое родительского элемента
+print(parent_elem)
