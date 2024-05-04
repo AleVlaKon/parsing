@@ -10,11 +10,11 @@ soup = BeautifulSoup(html.text, 'lxml')
 table = soup.find('table')
 table_rows = table.find_all('tr')[1:]
 
-point = set()
+point = 0
 
 for row in table_rows:
-    set_i = {float(i.text) for i in row.find_all('td')}
-    point |= set_i
+    set_i = [float(i.text) for i in row.find_all('td') if i.find('b')]
+    point += sum(set_i)
 
 
-print(sum(point))
+print(point)
