@@ -9,12 +9,9 @@ soup = BeautifulSoup(html.text, 'lxml')
 
 count = 0
 
-for table in soup.find_all('table'):
-    for row in table.find_all('tr'):
-        for cell in row.find_all('td'):
-            if int(cell.text) % 3 == 0:
-                count += int(cell.text)
-
+for cell in soup.find_all('td'):
+    if int(cell.text) % 3 == 0:
+        count += int(cell.text)
 
 print(count)
 
