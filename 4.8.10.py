@@ -7,7 +7,6 @@ import json
 html = requests.get('https://parsinger.ru/4.8/6/index.html')
 html.encoding = 'utf-8'
 
-
 soup = BeautifulSoup(html.text, 'lxml')
 
 list_of_auto = []
