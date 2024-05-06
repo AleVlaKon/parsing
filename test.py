@@ -1,34 +1,40 @@
+import requests
 from bs4 import BeautifulSoup
+import json
 
-html = '''
-<!DOCTYPE html>
-<html lang="en">
+# 1 ------------------------------------------------------
+url = 'http://parsinger.ru/html/index3_page_1.html'
+response = requests.get(url=url)
+response.encoding = 'utf-8'
+soup = BeautifulSoup(response.text, 'lxml')
+# 1 ------------------------------------------------------
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Пример .parent</title>
-</head>
+# 2 ------------------------------------------------------
+name = [x.text.strip() for x in soup.find_all('a', class_='name_item')]
+description = [x.text.strip().split('\n') for x in soup.find_all('div', class_='description')]
+price = [x.text for x in soup.find_all('p', class_='price')]
 
-<body>
-<div id="parent-container">
-    <h1 id="main-heading">Заголовок (.parent)</h1>
-    <p id="paragraph">Текст абзаца ()</p>
-    
-    <ul id="list">
-        <li class="list-item">Элемент списка 1</li>
-        <li class="list-item">Элемент списка 2</li>
-    </ul>
-</div>
+# 2 ------------------------------------------------------
 
-</body>
-</html>
+result_json = []
+# 3 ------------------------------------------------------
+for list_item, price_item, name in zip(description, price, name):
+    print(list_item)
+    print(price_item)
+    print(name)
+    result_json.append({
+        'name': name,
+        'brand': [x.split(':')[1] for x in list_item][0],
+        'type': [x.split(':')[1] for x in list_item][1],
+        'connect': [x.split(':')[1] for x in list_item][2],
+        'game': [x.split(':')[1] for x in list_item][3],
+        'price': price_item
 
-'''
+    })
+    break
+# 3 ------------------------------------------------------
 
-soup = BeautifulSoup(html, "html.parser")
-li_elem = soup.find('li', class_='list-item')
-parent_elem = li_elem.parent
-
-# Выводим содержимое родительского элемента
-print(parent_elem)
+# 4 ------------------------------------------------------
+with open('res.json', 'w', encoding='utf-8') as file:
+    json.dump(result_json, file, indent=4, ensure_ascii=False)
+# 4 ------------------------------------------------------
