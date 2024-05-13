@@ -6,8 +6,9 @@ count = 0
 
 with webdriver.Chrome() as browser:
     browser.get('http://parsinger.ru/selenium/3/3.html')
-    for div in browser.find_elements(By.CSS_SELECTOR, 'p:nth-child(2)'):
-        count += int(div.text)
+    for div in browser.find_elements(By.CLASS_NAME, 'text'):
+        p2 = div.find_elements(By.TAG_NAME, 'p')[1]
+        count += int(p2.text)
 
 
 print(count)
