@@ -1,0 +1,4892 @@
+{
+    "filters": [
+        {
+            "id": "REGION",
+            "title": "Регион",
+            "type": 2,
+            "isExtended": false,
+            "isDisabled": false,
+            "groupId": 0,
+            "checkPeriodLimits": false,
+            "totalCount": 0,
+            "start": 0,
+            "isSelectAllOptionHidden": true
+        },
+        {
+            "id": "AGGLOMERATION",
+            "title": "Агломерация",
+            "type": 2,
+            "isExtended": false,
+            "isDisabled": false,
+            "groupId": 0,
+            "checkPeriodLimits": false,
+            "totalCount": 0,
+            "start": 0,
+            "isSelectAllOptionHidden": true
+        },
+        {
+            "id": "ROAD_VALUE",
+            "title": "Значение",
+            "type": 2,
+            "isExtended": false,
+            "isDisabled": false,
+            "groupId": 0,
+            "checkPeriodLimits": false,
+            "totalCount": 0,
+            "start": 0,
+            "isSelectAllOptionHidden": false
+        },
+        {
+            "id": "OWNER",
+            "title": "Владелец",
+            "type": 13,
+            "isExtended": false,
+            "isDisabled": false,
+            "groupId": 0,
+            "checkPeriodLimits": false,
+            "totalCount": 0,
+            "start": 0,
+            "isSelectAllOptionHidden": true
+        },
+        {
+            "id": "DISTRICT",
+            "title": "Район",
+            "type": 2,
+            "isExtended": true,
+            "isDisabled": false,
+            "groupId": 1,
+            "checkPeriodLimits": false,
+            "totalCount": 0,
+            "start": 0,
+            "isSelectAllOptionHidden": false
+        },
+        {
+            "id": "CITY",
+            "title": "Город",
+            "type": 2,
+            "isExtended": true,
+            "isDisabled": false,
+            "groupId": 1,
+            "checkPeriodLimits": false,
+            "totalCount": 0,
+            "start": 0,
+            "isSelectAllOptionHidden": false
+        },
+        {
+            "id": "LOCALITY",
+            "title": "Населенный пункт",
+            "type": 2,
+            "isExtended": true,
+            "isDisabled": false,
+            "groupId": 1,
+            "checkPeriodLimits": false,
+            "totalCount": 0,
+            "start": 0,
+            "isSelectAllOptionHidden": false
+        },
+        {
+            "id": "PLAN_STRUCT",
+            "title": "Планировочная структура",
+            "type": 2,
+            "isExtended": true,
+            "isDisabled": false,
+            "groupId": 1,
+            "checkPeriodLimits": false,
+            "totalCount": 0,
+            "start": 0,
+            "isSelectAllOptionHidden": false
+        },
+        {
+            "id": "EXPL_ORG",
+            "title": "Эксплуатирующая организация",
+            "type": 2,
+            "isExtended": true,
+            "isDisabled": false,
+            "groupId": 1,
+            "checkPeriodLimits": false,
+            "totalCount": 0,
+            "start": 0,
+            "isSelectAllOptionHidden": false
+        },
+        {
+            "id": "BASE_DOCUMENT",
+            "title": "Документ-основание",
+            "type": 13,
+            "isExtended": true,
+            "isDisabled": false,
+            "groupId": 1,
+            "checkPeriodLimits": false,
+            "totalCount": 0,
+            "start": 0,
+            "isSelectAllOptionHidden": false
+        },
+        {
+            "id": "IS_HAVE_GEOMETRY",
+            "title": "Доступно на карте",
+            "type": 6,
+            "isExtended": true,
+            "isDisabled": false,
+            "groupId": 1,
+            "checkPeriodLimits": false,
+            "totalCount": 0,
+            "start": 0,
+            "isSelectAllOptionHidden": false
+        },
+        {
+            "id": "IS_CORE_NETWORK",
+            "title": "Входит в опорную сеть",
+            "type": 6,
+            "isExtended": true,
+            "isDisabled": false,
+            "groupId": 2,
+            "checkPeriodLimits": false,
+            "totalCount": 0,
+            "start": 0,
+            "isSelectAllOptionHidden": false
+        },
+        {
+            "id": "CORE_NETWORK_CRITERION",
+            "title": "Критерии ОС",
+            "type": 9,
+            "isExtended": true,
+            "isDisabled": false,
+            "groupId": 2,
+            "checkPeriodLimits": false,
+            "totalCount": 0,
+            "start": 0,
+            "isSelectAllOptionHidden": false
+        },
+        {
+            "id": "PROJECT",
+            "title": "Проект",
+            "type": 9,
+            "isExtended": true,
+            "isDisabled": false,
+            "groupId": 3,
+            "checkPeriodLimits": false,
+            "totalCount": 0,
+            "start": 0,
+            "isSelectAllOptionHidden": false
+        },
+        {
+            "id": "CUSTOMER",
+            "title": "Заказчик",
+            "type": 2,
+            "isExtended": true,
+            "isDisabled": false,
+            "groupId": 3,
+            "checkPeriodLimits": false,
+            "totalCount": 0,
+            "start": 0,
+            "isSelectAllOptionHidden": false
+        },
+        {
+            "id": "CONTRACTOR",
+            "title": "Подрядчик",
+            "type": 2,
+            "isExtended": true,
+            "isDisabled": false,
+            "groupId": 3,
+            "checkPeriodLimits": false,
+            "totalCount": 0,
+            "start": 0,
+            "isSelectAllOptionHidden": false
+        },
+        {
+            "id": "FIN_SOURCE",
+            "title": "Источник финансирования",
+            "type": 2,
+            "isExtended": true,
+            "isDisabled": false,
+            "groupId": 3,
+            "checkPeriodLimits": false,
+            "totalCount": 0,
+            "start": 0,
+            "isSelectAllOptionHidden": false
+        },
+        {
+            "id": "WORK_TYPE",
+            "title": "Вид работ",
+            "type": 2,
+            "isExtended": true,
+            "isDisabled": false,
+            "groupId": 3,
+            "checkPeriodLimits": false,
+            "totalCount": 0,
+            "start": 0,
+            "isSelectAllOptionHidden": false
+        },
+        {
+            "id": "WORK_STATUS",
+            "title": "Статус",
+            "type": 2,
+            "isExtended": true,
+            "isDisabled": false,
+            "groupId": 3,
+            "checkPeriodLimits": false,
+            "totalCount": 0,
+            "start": 0,
+            "isSelectAllOptionHidden": false
+        },
+        {
+            "id": "IS_LIFE_CYCLE",
+            "title": "КЖЦ",
+            "type": 6,
+            "isExtended": true,
+            "isDisabled": false,
+            "groupId": 3,
+            "checkPeriodLimits": false,
+            "totalCount": 0,
+            "start": 0,
+            "isSelectAllOptionHidden": false
+        },
+        {
+            "id": "IS_NEW_TECHNOLOGY",
+            "title": "С применением новых технологий и материалов",
+            "type": 6,
+            "isExtended": true,
+            "isDisabled": false,
+            "groupId": 3,
+            "checkPeriodLimits": false,
+            "totalCount": 0,
+            "start": 0,
+            "isSelectAllOptionHidden": false
+        },
+        {
+            "id": "ROAD_CLASS",
+            "title": "Класс",
+            "type": 2,
+            "isExtended": true,
+            "isDisabled": false,
+            "groupId": 4,
+            "checkPeriodLimits": false,
+            "totalCount": 0,
+            "start": 0,
+            "isSelectAllOptionHidden": false
+        },
+        {
+            "id": "ROAD_CATEGORY",
+            "title": "Категория",
+            "type": 2,
+            "isExtended": true,
+            "isDisabled": false,
+            "groupId": 4,
+            "checkPeriodLimits": false,
+            "totalCount": 0,
+            "start": 0,
+            "isSelectAllOptionHidden": false
+        },
+        {
+            "id": "ROAD_COATING",
+            "title": "Вид покрытия",
+            "type": 2,
+            "isExtended": true,
+            "isDisabled": false,
+            "groupId": 4,
+            "checkPeriodLimits": false,
+            "totalCount": 0,
+            "start": 0,
+            "isSelectAllOptionHidden": false
+        },
+        {
+            "id": "RANKS",
+            "title": "Число полос движения",
+            "type": 2,
+            "isExtended": true,
+            "isDisabled": false,
+            "groupId": 4,
+            "checkPeriodLimits": false,
+            "totalCount": 0,
+            "start": 0,
+            "isSelectAllOptionHidden": false
+        },
+        {
+            "id": "TOP_SPEED",
+            "title": "Максимальная скорость движения",
+            "type": 2,
+            "isExtended": true,
+            "isDisabled": false,
+            "groupId": 4,
+            "checkPeriodLimits": false,
+            "totalCount": 0,
+            "start": 0,
+            "isSelectAllOptionHidden": false
+        },
+        {
+            "id": "CLIMATIC_ZONE",
+            "title": "Дорожно-климатическая зона",
+            "type": 2,
+            "isExtended": true,
+            "isDisabled": false,
+            "groupId": 4,
+            "checkPeriodLimits": false,
+            "totalCount": 0,
+            "start": 0,
+            "isSelectAllOptionHidden": false
+        },
+        {
+            "id": "AXLE_LOAD",
+            "title": "Нагрузка на ось",
+            "type": 2,
+            "isExtended": true,
+            "isDisabled": false,
+            "groupId": 4,
+            "checkPeriodLimits": false,
+            "totalCount": 0,
+            "start": 0,
+            "isSelectAllOptionHidden": false
+        },
+        {
+            "value": [
+                null,
+                null
+            ],
+            "id": "THROUGHPUT",
+            "title": "Пропускная способность",
+            "type": 7,
+            "isExtended": true,
+            "isDisabled": false,
+            "groupId": 4,
+            "checkPeriodLimits": false,
+            "totalCount": 0,
+            "start": 0,
+            "isSelectAllOptionHidden": false
+        },
+        {
+            "value": [
+                null,
+                null
+            ],
+            "id": "ROAD_WIDTH",
+            "title": "Ширина проезжей части",
+            "type": 7,
+            "isExtended": true,
+            "isDisabled": false,
+            "groupId": 4,
+            "checkPeriodLimits": false,
+            "totalCount": 0,
+            "start": 0,
+            "isSelectAllOptionHidden": false
+        },
+        {
+            "value": [
+                null,
+                null
+            ],
+            "id": "SUBGRADE_WIDTH",
+            "title": "Ширина земляного полотна",
+            "type": 7,
+            "isExtended": true,
+            "isDisabled": false,
+            "groupId": 4,
+            "checkPeriodLimits": false,
+            "totalCount": 0,
+            "start": 0,
+            "isSelectAllOptionHidden": false
+        },
+        {
+            "id": "DIAGNOSTIC_TYPE",
+            "title": "Вид проведения диагностики",
+            "type": 2,
+            "isExtended": true,
+            "isDisabled": false,
+            "groupId": 5,
+            "checkPeriodLimits": false,
+            "totalCount": 0,
+            "start": 0,
+            "isSelectAllOptionHidden": false
+        },
+        {
+            "id": "DIAGNOSTIC_STATUS",
+            "title": "Статус проведения диагностики",
+            "type": 2,
+            "isExtended": true,
+            "isDisabled": false,
+            "groupId": 5,
+            "checkPeriodLimits": false,
+            "totalCount": 0,
+            "start": 0,
+            "isSelectAllOptionHidden": false
+        },
+        {
+            "value": [
+                null,
+                null
+            ],
+            "id": "NORM_PERCENTAGE",
+            "title": "Соответствие нормативному состоянию",
+            "type": 7,
+            "isExtended": true,
+            "isDisabled": false,
+            "groupId": 5,
+            "checkPeriodLimits": false,
+            "totalCount": 0,
+            "start": 0,
+            "isSelectAllOptionHidden": false
+        },
+        {
+            "id": "EMER_STATUS",
+            "title": "Статус аварийно-опасного участка",
+            "type": 2,
+            "isExtended": true,
+            "isDisabled": false,
+            "groupId": 6,
+            "checkPeriodLimits": false,
+            "totalCount": 0,
+            "start": 0,
+            "isSelectAllOptionHidden": false
+        },
+        {
+            "id": "EMER_DTP_TYPE",
+            "title": "Вид ДТП",
+            "type": 2,
+            "isExtended": true,
+            "isDisabled": false,
+            "groupId": 6,
+            "checkPeriodLimits": false,
+            "totalCount": 0,
+            "start": 0,
+            "isSelectAllOptionHidden": false
+        },
+        {
+            "id": "IS_HAVE_DEAD",
+            "title": "ДТП с погибшими",
+            "type": 6,
+            "isExtended": true,
+            "isDisabled": false,
+            "groupId": 6,
+            "checkPeriodLimits": false,
+            "totalCount": 0,
+            "start": 0,
+            "isSelectAllOptionHidden": false
+        },
+        {
+            "id": "IS_HAVE_WOUNDED",
+            "title": "ДТП с пострадавшими",
+            "type": 6,
+            "isExtended": true,
+            "isDisabled": false,
+            "groupId": 6,
+            "checkPeriodLimits": false,
+            "totalCount": 0,
+            "start": 0,
+            "isSelectAllOptionHidden": false
+        },
+        {
+            "id": "APPEAL_TYPE",
+            "title": "Тип",
+            "type": 2,
+            "isExtended": true,
+            "isDisabled": false,
+            "groupId": 7,
+            "checkPeriodLimits": false,
+            "totalCount": 0,
+            "start": 0,
+            "isSelectAllOptionHidden": false
+        },
+        {
+            "id": "APPEAL_STATUS",
+            "title": "Статус",
+            "type": 2,
+            "isExtended": true,
+            "isDisabled": false,
+            "groupId": 7,
+            "checkPeriodLimits": false,
+            "totalCount": 0,
+            "start": 0,
+            "isSelectAllOptionHidden": false
+        },
+        {
+            "id": "START_YEAR",
+            "type": 11,
+            "isExtended": true,
+            "isDisabled": false,
+            "groupId": 7,
+            "checkPeriodLimits": false,
+            "totalCount": 0,
+            "start": 0,
+            "isSelectAllOptionHidden": false
+        },
+        {
+            "id": "FINISH_YEAR",
+            "type": 11,
+            "isExtended": true,
+            "isDisabled": false,
+            "groupId": 7,
+            "checkPeriodLimits": false,
+            "totalCount": 0,
+            "start": 0,
+            "isSelectAllOptionHidden": false
+        }
+    ],
+    "stat": {
+        "locLength": 0.0,
+        "locCount": 0.0,
+        "regLength": 0.0,
+        "regCount": 0.0,
+        "fedLength": 0.0,
+        "fedCount": 0.0,
+        "totalLength": 5740.225,
+        "totalCount": 256.0,
+        "roadCheckedCount": 0.0,
+        "backboneLength": 0.0
+    },
+    "start": 0,
+    "limit": 300,
+    "totalCount": 256,
+    "data": [
+        {
+            "id": 131709686,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Диденко Елена Анатольевна 11.01.2023",
+            "name": "Автодорога между пограничным мостовым переходом через основное русло р. Амур с границей КНР и протокой Каникурганская",
+            "info": "Амурская область,р-н. Благовещенский",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10А-247",
+            "length": 1.798,
+            "square": 13485.0,
+            "normativeState": 0.0,
+            "dangerousPartLength": 0.0,
+            "roadPartLength": 0.0,
+            "overloadPartLength": 0.0,
+            "cost": 0.0,
+            "coatingTypes": [
+                {
+                    "code": "51835",
+                    "value": "Асфальтобетонные"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51848",
+                    "value": "II"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979530,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 03.07.2020",
+            "name": "Алексеевка - Петровка",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-001",
+            "length": 18.538,
+            "square": 185380.0,
+            "normativeState": 92.2,
+            "dangerousPartLength": 0.0,
+            "roadPartLength": 0.0,
+            "overloadPartLength": 0.0,
+            "cost": 0.0,
+            "diagnosticsPlan": "01.07.2019-31.07.2019 (0+000-18+538)",
+            "coatingTypes": [
+                {
+                    "code": "1643501",
+                    "value": "Переходный"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51850",
+                    "value": "IV"
+                },
+                {
+                    "code": "51851",
+                    "value": "V"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979595,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 03.07.2020",
+            "name": "\"Амур\" - Новоохочье",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-002",
+            "length": 2.988,
+            "square": 29980.0,
+            "normativeState": 31.0,
+            "dangerousPartLength": 0.0,
+            "roadPartLength": 0.0,
+            "overloadPartLength": 0.0,
+            "cost": 0.0,
+            "diagnosticsPlan": "01.07.2019-31.07.2019 (0+000-2+988)",
+            "coatingTypes": [
+                {
+                    "code": "1643501",
+                    "value": "Переходный"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51850",
+                    "value": "IV"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979531,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "Архара - Вольное",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-003",
+            "length": 27.0,
+            "square": 270000.0,
+            "normativeState": 69.94,
+            "dangerousPartLength": 0.0,
+            "roadPartLength": 0.0,
+            "overloadPartLength": 0.0,
+            "cost": 0.0,
+            "diagnosticsPlan": "01.07.2019-31.07.2019 (0+000-27+000)",
+            "coatingTypes": [
+                {
+                    "code": "51835",
+                    "value": "Асфальтобетонные"
+                },
+                {
+                    "code": "1643501",
+                    "value": "Переходный"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51850",
+                    "value": "IV"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979634,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "Архара - Грибовка",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-004",
+            "length": 24.5,
+            "square": 266000.0,
+            "normativeState": 5.02,
+            "dangerousPartLength": 0.0,
+            "roadPartLength": 0.0,
+            "overloadPartLength": 0.0,
+            "cost": 0.0,
+            "diagnosticsPlan": "01.07.2019-31.07.2019 (0+000-24+500)",
+            "coatingTypes": [
+                {
+                    "code": "51835",
+                    "value": "Асфальтобетонные"
+                },
+                {
+                    "code": "1643501",
+                    "value": "Переходный"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51849",
+                    "value": "III"
+                },
+                {
+                    "code": "51850",
+                    "value": "IV"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979441,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "Архара - Иннокентьевка",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-005",
+            "length": 33.0,
+            "square": 338000.0,
+            "normativeState": 38.96,
+            "dangerousPartLength": 0.0,
+            "roadPartLength": 0.0,
+            "overloadPartLength": 0.0,
+            "cost": 0.0,
+            "diagnosticsPlan": "01.07.2019-31.07.2019 (0+000-33+000)",
+            "coatingTypes": [
+                {
+                    "code": "51835",
+                    "value": "Асфальтобетонные"
+                },
+                {
+                    "code": "1643501",
+                    "value": "Переходный"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51849",
+                    "value": "III"
+                },
+                {
+                    "code": "51850",
+                    "value": "IV"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979561,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "Архара - Новосергеевка",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-006",
+            "length": 31.0,
+            "square": 310000.0,
+            "normativeState": 6.92,
+            "dangerousPartLength": 0.0,
+            "roadPartLength": 0.0,
+            "overloadPartLength": 0.0,
+            "cost": 0.0,
+            "diagnosticsPlan": "01.07.2019-31.07.2019 (0+000-31+000)",
+            "coatingTypes": [
+                {
+                    "code": "51835",
+                    "value": "Асфальтобетонные"
+                },
+                {
+                    "code": "1643501",
+                    "value": "Переходный"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51850",
+                    "value": "IV"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979469,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "Архара - Новоспасск",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-007",
+            "length": 47.1,
+            "square": 565200.0,
+            "normativeState": 0.47,
+            "dangerousPartLength": 0.0,
+            "roadPartLength": 0.0,
+            "overloadPartLength": 0.0,
+            "cost": 0.0,
+            "diagnosticsPlan": "01.07.2019-31.07.2019 (0+000-47+100)",
+            "coatingTypes": [
+                {
+                    "code": "51835",
+                    "value": "Асфальтобетонные"
+                },
+                {
+                    "code": "1643501",
+                    "value": "Переходный"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51849",
+                    "value": "III"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979499,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "Архара - Сагибово",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-008",
+            "length": 96.0,
+            "square": 1152000.0,
+            "normativeState": 27.48,
+            "dangerousPartLength": 0.0,
+            "roadPartLength": 0.0,
+            "overloadPartLength": 0.0,
+            "cost": 0.0,
+            "diagnosticsPlan": "01.07.2019-31.07.2019 (0+000-96+000)",
+            "coatingTypes": [
+                {
+                    "code": "51835",
+                    "value": "Асфальтобетонные"
+                },
+                {
+                    "code": "1643501",
+                    "value": "Переходный"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51849",
+                    "value": "III"
+                },
+                {
+                    "code": "51850",
+                    "value": "IV"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979532,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "Белогорск - Бочкаревка",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-009",
+            "length": 1.8,
+            "square": 18000.0,
+            "normativeState": 90.56,
+            "dangerousPartLength": 0.0,
+            "roadPartLength": 0.0,
+            "overloadPartLength": 0.0,
+            "cost": 0.0,
+            "diagnosticsPlan": "01.07.2019-31.07.2019 (0+000-1+800)",
+            "coatingTypes": [
+                {
+                    "code": "51835",
+                    "value": "Асфальтобетонные"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51850",
+                    "value": "IV"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979533,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "Белогорск - Великокнязевка - Томичи",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-010",
+            "length": 75.5,
+            "square": 755000.0,
+            "normativeState": 42.15,
+            "dangerousPartLength": 0.0,
+            "roadPartLength": 0.0,
+            "overloadPartLength": 0.0,
+            "cost": 0.0,
+            "diagnosticsPlan": "01.07.2019-31.07.2019 (0+000-75+500)",
+            "coatingTypes": [
+                {
+                    "code": "51835",
+                    "value": "Асфальтобетонные"
+                },
+                {
+                    "code": "1643501",
+                    "value": "Переходный"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51850",
+                    "value": "IV"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979534,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "Белогорск - Новое - Ромны",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-011",
+            "length": 62.0,
+            "square": 589000.0,
+            "normativeState": 54.07,
+            "dangerousPartLength": 0.0,
+            "roadPartCount": 1,
+            "roadPartLength": 1.43,
+            "overloadPartLength": 0.0,
+            "cost": 34902.0,
+            "diagnosticsPlan": "01.07.2019-31.07.2019 (0+000-62+000)",
+            "coatingTypes": [
+                {
+                    "code": "51835",
+                    "value": "Асфальтобетонные"
+                },
+                {
+                    "code": "1643501",
+                    "value": "Переходный"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51850",
+                    "value": "IV"
+                },
+                {
+                    "code": "51851",
+                    "value": "V"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979500,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "Белогорск - Серышево",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-012",
+            "length": 23.0,
+            "square": 161000.0,
+            "normativeState": 38.57,
+            "dangerousPartLength": 0.0,
+            "roadPartCount": 1,
+            "roadPartLength": 2.0,
+            "overloadPartLength": 0.0,
+            "cost": 20080.0,
+            "diagnosticsPlan": "01.07.2019-31.07.2019 (0+000-23+000)",
+            "coatingTypes": [
+                {
+                    "code": "51835",
+                    "value": "Асфальтобетонные"
+                },
+                {
+                    "code": "1643501",
+                    "value": "Переходный"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51849",
+                    "value": "III"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979501,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "\"Белогорск - Серышево\" - Фроловка",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-013",
+            "length": 21.122,
+            "square": 211220.0,
+            "normativeState": 98.03,
+            "dangerousPartLength": 0.0,
+            "roadPartLength": 0.0,
+            "overloadPartLength": 0.0,
+            "cost": 0.0,
+            "diagnosticsPlan": "01.07.2019-31.07.2019 (0+000-21+122)",
+            "coatingTypes": [
+                {
+                    "code": "1643501",
+                    "value": "Переходный"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51850",
+                    "value": "IV"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979502,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "\"Белогорск - Серышево\" - Широкий Лог",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-014",
+            "length": 46.791,
+            "square": 467910.0,
+            "normativeState": 25.58,
+            "dangerousPartLength": 0.0,
+            "roadPartLength": 0.0,
+            "overloadPartLength": 0.0,
+            "cost": 0.0,
+            "diagnosticsPlan": "01.07.2019-31.07.2019 (0+000-46+791)",
+            "coatingTypes": [
+                {
+                    "code": "1643501",
+                    "value": "Переходный"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51850",
+                    "value": "IV"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979405,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "Белогорье - Марково",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-015",
+            "length": 18.5,
+            "square": 185000.0,
+            "normativeState": 31.52,
+            "dangerousPartLength": 0.0,
+            "roadPartLength": 0.0,
+            "overloadPartLength": 0.0,
+            "cost": 0.0,
+            "diagnosticsPlan": "01.08.2024-31.08.2024 (0+000-18+500)",
+            "coatingTypes": [
+                {
+                    "code": "51835",
+                    "value": "Асфальтобетонные"
+                },
+                {
+                    "code": "1643501",
+                    "value": "Переходный"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51850",
+                    "value": "IV"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979470,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "Белоярово - Дружное",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-016",
+            "length": 25.909,
+            "square": 155454.0,
+            "normativeState": 49.89,
+            "dangerousPartLength": 0.0,
+            "roadPartLength": 0.0,
+            "overloadPartLength": 0.0,
+            "cost": 0.0,
+            "diagnosticsPlan": "01.07.2019-31.07.2019 (0+000-25+909)",
+            "coatingTypes": [
+                {
+                    "code": "1643501",
+                    "value": "Переходный"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51850",
+                    "value": "IV"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979562,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "Березовка - Семиозерка",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-017",
+            "length": 11.1,
+            "square": 111000.0,
+            "normativeState": 16.15,
+            "dangerousPartLength": 0.0,
+            "roadPartLength": 0.0,
+            "overloadPartLength": 0.0,
+            "cost": 0.0,
+            "diagnosticsPlan": "01.07.2019-31.07.2019 (0+000-11+100)",
+            "coatingTypes": [
+                {
+                    "code": "1643501",
+                    "value": "Переходный"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51850",
+                    "value": "IV"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979406,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "Бичура - Маргаритовка",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-018",
+            "length": 26.634,
+            "square": 266340.0,
+            "normativeState": 12.89,
+            "dangerousPartLength": 0.0,
+            "roadPartLength": 0.0,
+            "overloadPartLength": 0.0,
+            "cost": 0.0,
+            "diagnosticsPlan": "01.07.2019-31.07.2019 (0+000-26+634)",
+            "coatingTypes": [
+                {
+                    "code": "1643501",
+                    "value": "Переходный"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51850",
+                    "value": "IV"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979596,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "Благовещенск - Бибиково",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-020",
+            "length": 68.5,
+            "square": 728000.0,
+            "normativeState": 46.7,
+            "dangerousPartLength": 0.0,
+            "roadPartCount": 7,
+            "roadPartLength": 40.543,
+            "overloadPartLength": 0.0,
+            "cost": 1209356.53,
+            "diagnosticsPlan": "01.08.2024-31.08.2024 (0+000-68+500)",
+            "coatingTypes": [
+                {
+                    "code": "51835",
+                    "value": "Асфальтобетонные"
+                },
+                {
+                    "code": "1643501",
+                    "value": "Переходный"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51849",
+                    "value": "III"
+                },
+                {
+                    "code": "51850",
+                    "value": "IV"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979535,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "Благовещенск - Гомелевка, км 11,0 - км 159 + 249",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-019",
+            "length": 148.249,
+            "square": 1778988.0,
+            "normativeState": 46.7,
+            "dangerousPartLength": 0.0,
+            "roadPartCount": 34,
+            "roadPartLength": 280.328,
+            "overloadPartLength": 0.0,
+            "cost": 6416259.11,
+            "diagnosticsPlan": "01.08.2024-31.08.2024 (0+000-170+925)",
+            "coatingTypes": [
+                {
+                    "code": "51835",
+                    "value": "Асфальтобетонные"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51849",
+                    "value": "III"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979503,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "Благовещенск - Гомелевка, км 163 + 123 - км 185 + 799",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-019",
+            "length": 22.676,
+            "square": 272112.0,
+            "normativeState": 100.0,
+            "dangerousPartLength": 0.0,
+            "roadPartLength": 0.0,
+            "overloadPartLength": 0.0,
+            "cost": 0.0,
+            "coatingTypes": [
+                {
+                    "code": "51835",
+                    "value": "Асфальтобетонные"
+                },
+                {
+                    "code": "1643501",
+                    "value": "Переходный"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51849",
+                    "value": "III"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979442,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "Благовещенск - Свободный",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-021",
+            "length": 135.417,
+            "square": 1627104.0,
+            "normativeState": 52.1,
+            "dangerousPartLength": 0.0,
+            "roadPartCount": 6,
+            "roadPartLength": 51.462,
+            "overloadPartLength": 0.0,
+            "cost": 10584238.704,
+            "diagnosticsPlan": "01.08.2024-31.08.2024 (0+000-135+417)",
+            "coatingTypes": [
+                {
+                    "code": "51835",
+                    "value": "Асфальтобетонные"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51849",
+                    "value": "III"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979471,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "Болдыревка - Аврамовка",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-022",
+            "length": 8.0,
+            "square": 80000.0,
+            "normativeState": 0.0,
+            "dangerousPartLength": 0.0,
+            "roadPartLength": 0.0,
+            "overloadPartLength": 0.0,
+            "cost": 0.0,
+            "diagnosticsPlan": "01.07.2019-31.07.2019 (0+000-8+000)",
+            "coatingTypes": [
+                {
+                    "code": "1643501",
+                    "value": "Переходный"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51850",
+                    "value": "IV"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979472,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "Братолюбовка - Амаранка",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-023",
+            "length": 17.495,
+            "square": 180000.0,
+            "normativeState": 28.01,
+            "dangerousPartLength": 0.0,
+            "roadPartCount": 1,
+            "roadPartLength": 12.0,
+            "overloadPartLength": 0.0,
+            "cost": 75196.0,
+            "diagnosticsPlan": "01.07.2019-31.07.2019 (0+000-17+495)",
+            "coatingTypes": [
+                {
+                    "code": "1643501",
+                    "value": "Переходный"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51850",
+                    "value": "IV"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979443,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "Бурея - Долдыкан",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-024",
+            "length": 12.706,
+            "square": 127060.0,
+            "normativeState": 25.47,
+            "dangerousPartLength": 0.0,
+            "roadPartLength": 0.0,
+            "overloadPartLength": 0.0,
+            "cost": 0.0,
+            "diagnosticsPlan": "01.07.2019-31.07.2019 (0+000-12+706)",
+            "coatingTypes": [
+                {
+                    "code": "51835",
+                    "value": "Асфальтобетонные"
+                },
+                {
+                    "code": "1643501",
+                    "value": "Переходный"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51850",
+                    "value": "IV"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979536,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "\"Бурея - Родионовка - Бахирево\", км 0 - км 46+100",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-025",
+            "length": 46.1,
+            "square": 537000.0,
+            "normativeState": 10.84,
+            "dangerousPartLength": 0.0,
+            "roadPartLength": 0.0,
+            "overloadPartLength": 0.0,
+            "cost": 0.0,
+            "diagnosticsPlan": "01.07.2019-31.07.2019 (0+000-53+700)",
+            "coatingTypes": [
+                {
+                    "code": "51835",
+                    "value": "Асфальтобетонные"
+                },
+                {
+                    "code": "1643501",
+                    "value": "Переходный"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51850",
+                    "value": "IV"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979537,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "Варваровка - Преображеновка",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-026",
+            "length": 14.68,
+            "square": 142300.0,
+            "normativeState": 2.98,
+            "dangerousPartLength": 0.0,
+            "roadPartLength": 0.0,
+            "overloadPartLength": 0.0,
+            "cost": 0.0,
+            "diagnosticsPlan": "01.07.2019-31.07.2019 (0+000-14+680)",
+            "coatingTypes": [
+                {
+                    "code": "1643501",
+                    "value": "Переходный"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51850",
+                    "value": "IV"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 13708353,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "\"Введеновка - Февральск\"",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-027",
+            "length": 269.54,
+            "square": 1624240.0,
+            "normativeState": 33.63,
+            "dangerousPartLength": 0.0,
+            "roadPartCount": 2,
+            "roadPartLength": 18.4,
+            "overloadPartLength": 0.0,
+            "cost": 153788.09,
+            "coatingTypes": [
+                {
+                    "code": "51835",
+                    "value": "Асфальтобетонные"
+                },
+                {
+                    "code": "1643501",
+                    "value": "Переходный"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51849",
+                    "value": "III"
+                },
+                {
+                    "code": "51850",
+                    "value": "IV"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979538,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "Великокнязевка - Новоандреевка",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-028",
+            "length": 2.1,
+            "square": 12600.0,
+            "normativeState": 9.52,
+            "dangerousPartLength": 0.0,
+            "roadPartLength": 0.0,
+            "overloadPartLength": 0.0,
+            "cost": 0.0,
+            "diagnosticsPlan": "01.07.2019-31.07.2019 (0+000-2+100)",
+            "coatingTypes": [
+                {
+                    "code": "1643501",
+                    "value": "Переходный"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51850",
+                    "value": "IV"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979635,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "Верное - Милёхино",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-029",
+            "length": 30.194,
+            "square": 301940.0,
+            "normativeState": 20.44,
+            "dangerousPartLength": 0.0,
+            "roadPartLength": 0.0,
+            "overloadPartLength": 0.0,
+            "cost": 0.0,
+            "diagnosticsPlan": "01.07.2019-31.07.2019 (0+000-30+194)",
+            "coatingTypes": [
+                {
+                    "code": "1643501",
+                    "value": "Переходный"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51850",
+                    "value": "IV"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979563,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "Верхний Уртуй - Зеньковка",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-030",
+            "length": 39.1,
+            "square": 391000.0,
+            "normativeState": 2.18,
+            "dangerousPartLength": 0.0,
+            "roadPartCount": 1,
+            "roadPartLength": 1.3,
+            "overloadPartLength": 0.0,
+            "cost": 31605.0,
+            "diagnosticsPlan": "01.07.2019-31.07.2019 (0+000-39+100)",
+            "coatingTypes": [
+                {
+                    "code": "51835",
+                    "value": "Асфальтобетонные"
+                },
+                {
+                    "code": "1643501",
+                    "value": "Переходный"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51850",
+                    "value": "IV"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979598,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "Верхняя Полтавка - Новоалександровка",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-031",
+            "length": 14.0,
+            "square": 140000.0,
+            "normativeState": 47.91,
+            "dangerousPartLength": 0.0,
+            "roadPartLength": 0.0,
+            "overloadPartLength": 0.0,
+            "cost": 0.0,
+            "diagnosticsPlan": "01.07.2019-31.07.2019 (0+000-14+000)",
+            "coatingTypes": [
+                {
+                    "code": "51835",
+                    "value": "Асфальтобетонные"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51850",
+                    "value": "IV"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979599,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "Возжаевка - Чернетчено",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-032",
+            "length": 19.3,
+            "square": 193000.0,
+            "normativeState": 39.06,
+            "dangerousPartLength": 0.0,
+            "roadPartLength": 0.0,
+            "overloadPartLength": 0.0,
+            "cost": 0.0,
+            "diagnosticsPlan": "01.07.2019-31.07.2019 (0+000-19+300)",
+            "coatingTypes": [
+                {
+                    "code": "1643501",
+                    "value": "Переходный"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51850",
+                    "value": "IV"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979408,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "Волково - Грибское - Дроново",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-033",
+            "length": 14.1,
+            "square": 141000.0,
+            "normativeState": 45.43,
+            "dangerousPartLength": 0.0,
+            "roadPartCount": 1,
+            "roadPartLength": 0.805,
+            "overloadPartLength": 0.0,
+            "cost": 11955.0,
+            "diagnosticsPlan": "01.07.2019-31.07.2019 (0+000-14+100)",
+            "coatingTypes": [
+                {
+                    "code": "51835",
+                    "value": "Асфальтобетонные"
+                },
+                {
+                    "code": "1643501",
+                    "value": "Переходный"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51850",
+                    "value": "IV"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979409,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "Воскресеновка - Кавказ",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-034",
+            "length": 10.827,
+            "square": 107000.0,
+            "normativeState": 80.65,
+            "dangerousPartLength": 0.0,
+            "roadPartLength": 0.0,
+            "overloadPartLength": 0.0,
+            "cost": 0.0,
+            "diagnosticsPlan": "01.07.2019-31.07.2019 (0+000-10+827)",
+            "coatingTypes": [
+                {
+                    "code": "1643501",
+                    "value": "Переходный"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51850",
+                    "value": "IV"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979410,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "Гомелевка - Новобурейский - Куликовка",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-035",
+            "length": 25.0,
+            "square": 250000.0,
+            "normativeState": 22.14,
+            "dangerousPartLength": 0.0,
+            "roadPartLength": 0.0,
+            "overloadPartLength": 0.0,
+            "cost": 0.0,
+            "diagnosticsPlan": "01.07.2019-31.07.2019 (0+000-25+000)",
+            "coatingTypes": [
+                {
+                    "code": "51835",
+                    "value": "Асфальтобетонные"
+                },
+                {
+                    "code": "1643501",
+                    "value": "Переходный"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51850",
+                    "value": "IV"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979564,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "Гонжа - Кислый Ключ",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-036",
+            "length": 8.105,
+            "square": 81050.0,
+            "normativeState": 44.26,
+            "dangerousPartLength": 0.0,
+            "roadPartLength": 0.0,
+            "overloadPartLength": 0.0,
+            "cost": 0.0,
+            "diagnosticsPlan": "01.07.2019-31.07.2019 (0+000-8+105)",
+            "coatingTypes": [
+                {
+                    "code": "1643501",
+                    "value": "Переходный"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51850",
+                    "value": "IV"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979473,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "Дальневосточное - Урожайное",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-037",
+            "length": 9.468,
+            "square": 94000.0,
+            "normativeState": 9.24,
+            "dangerousPartLength": 0.0,
+            "roadPartLength": 0.0,
+            "overloadPartLength": 0.0,
+            "cost": 0.0,
+            "diagnosticsPlan": "01.07.2019-31.07.2019 (0+000-9+468)",
+            "coatingTypes": [
+                {
+                    "code": "1643501",
+                    "value": "Переходный"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51850",
+                    "value": "IV"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979411,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "Демьяновка - Куприяновка",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-038",
+            "length": 9.5,
+            "square": 95000.0,
+            "normativeState": 0.0,
+            "dangerousPartLength": 0.0,
+            "roadPartLength": 0.0,
+            "overloadPartLength": 0.0,
+            "cost": 0.0,
+            "diagnosticsPlan": "01.07.2019-31.07.2019 (0+000-9+500)",
+            "coatingTypes": [
+                {
+                    "code": "1643501",
+                    "value": "Переходный"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51850",
+                    "value": "IV"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979565,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "Джалинда - Воскресеновка",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-039",
+            "length": 34.0,
+            "square": 340000.0,
+            "normativeState": 11.2,
+            "dangerousPartLength": 0.0,
+            "roadPartLength": 0.0,
+            "overloadPartLength": 0.0,
+            "cost": 0.0,
+            "diagnosticsPlan": "01.07.2019-31.07.2019 (0+000-34+000)",
+            "coatingTypes": [
+                {
+                    "code": "1643501",
+                    "value": "Переходный"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51850",
+                    "value": "IV"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979566,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "Дим - Новопетровка",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-040",
+            "length": 16.76,
+            "square": 167600.0,
+            "normativeState": 0.23,
+            "dangerousPartLength": 0.0,
+            "roadPartLength": 0.0,
+            "overloadPartLength": 0.0,
+            "cost": 0.0,
+            "diagnosticsPlan": "01.07.2019-31.07.2019 (0+000-16+760)",
+            "coatingTypes": [
+                {
+                    "code": "1643501",
+                    "value": "Переходный"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51850",
+                    "value": "IV"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979600,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "Домикан - Каменка",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-041",
+            "length": 14.9,
+            "square": 455000.0,
+            "normativeState": 0.67,
+            "dangerousPartLength": 0.0,
+            "roadPartLength": 0.0,
+            "overloadPartLength": 0.0,
+            "cost": 0.0,
+            "diagnosticsPlan": "01.07.2019-31.07.2019 (0+000-14+900)",
+            "coatingTypes": [
+                {
+                    "code": "1643501",
+                    "value": "Переходный"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51850",
+                    "value": "IV"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 3415171,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "Екатеринославка - Беляковка",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-042",
+            "length": 41.27,
+            "square": 247620.0,
+            "normativeState": 44.64,
+            "dangerousPartLength": 0.0,
+            "roadPartLength": 0.0,
+            "overloadPartLength": 0.0,
+            "cost": 0.0,
+            "diagnosticsPlan": "01.07.2019-31.07.2019 (0+000-41+270)",
+            "coatingTypes": [
+                {
+                    "code": "1643501",
+                    "value": "Переходный"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51850",
+                    "value": "IV"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979539,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "Екатеринославка - Преображеновка",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-043",
+            "length": 34.467,
+            "square": 350000.0,
+            "normativeState": 1.45,
+            "dangerousPartLength": 0.0,
+            "roadPartLength": 0.0,
+            "overloadPartLength": 0.0,
+            "cost": 0.0,
+            "diagnosticsPlan": "01.07.2019-31.07.2019 (0+000-34+467)",
+            "coatingTypes": [
+                {
+                    "code": "1643501",
+                    "value": "Переходный"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51850",
+                    "value": "IV"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979412,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "Екатеринославка - Тамбовка - Константиновка",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-044",
+            "length": 144.971,
+            "square": 1739652.0,
+            "normativeState": 26.1,
+            "dangerousPartLength": 0.0,
+            "roadPartCount": 25,
+            "roadPartLength": 247.706,
+            "overloadPartLength": 0.0,
+            "cost": 6233060.56,
+            "diagnosticsPlan": "01.07.2019-31.07.2019 (0+000-144+971)",
+            "coatingTypes": [
+                {
+                    "code": "51835",
+                    "value": "Асфальтобетонные"
+                },
+                {
+                    "code": "1643501",
+                    "value": "Переходный"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51849",
+                    "value": "III"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979636,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "Екатеринославка - Харьковка",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-045",
+            "length": 38.277,
+            "square": 408500.0,
+            "normativeState": 33.8,
+            "dangerousPartLength": 0.0,
+            "roadPartLength": 0.0,
+            "overloadPartLength": 0.0,
+            "cost": 0.0,
+            "diagnosticsPlan": "01.07.2019-31.07.2019 (0+000-38+277)",
+            "coatingTypes": [
+                {
+                    "code": "1643501",
+                    "value": "Переходный"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51850",
+                    "value": "IV"
+                },
+                {
+                    "code": "51851",
+                    "value": "V"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "1;2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979444,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "Ерковцы - Николаевка - Среднебелая",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-046",
+            "length": 38.3,
+            "square": 383000.0,
+            "normativeState": 40.23,
+            "dangerousPartLength": 0.0,
+            "roadPartLength": 0.0,
+            "overloadPartLength": 0.0,
+            "cost": 0.0,
+            "diagnosticsPlan": "01.07.2019-31.07.2019 (0+000-38+300)",
+            "coatingTypes": [
+                {
+                    "code": "1643501",
+                    "value": "Переходный"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51850",
+                    "value": "IV"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979567,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "Завитинск - Верхнеильиновка",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-047",
+            "length": 32.0,
+            "square": 192000.0,
+            "normativeState": 72.0,
+            "dangerousPartLength": 0.0,
+            "roadPartCount": 1,
+            "roadPartLength": 5.0,
+            "overloadPartLength": 0.0,
+            "cost": 84000.0,
+            "diagnosticsPlan": "01.07.2019-31.07.2019 (0+000-32+000)",
+            "coatingTypes": [
+                {
+                    "code": "51835",
+                    "value": "Асфальтобетонные"
+                },
+                {
+                    "code": "1643501",
+                    "value": "Переходный"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51850",
+                    "value": "IV"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979568,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "Завитинск - Поярково",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-048",
+            "length": 82.0,
+            "square": 991200.0,
+            "normativeState": 18.6,
+            "dangerousPartLength": 0.0,
+            "roadPartCount": 8,
+            "roadPartLength": 75.0,
+            "overloadPartLength": 0.0,
+            "cost": 1966069.42,
+            "diagnosticsPlan": "01.07.2019-31.07.2019 (0+000-82+600)",
+            "coatingTypes": [
+                {
+                    "code": "51835",
+                    "value": "Асфальтобетонные"
+                },
+                {
+                    "code": "1643501",
+                    "value": "Переходный"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51849",
+                    "value": "III"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979569,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "\"Завитинск - Поярково\" - Ильиновка",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-050",
+            "length": 43.594,
+            "square": 261564.0,
+            "normativeState": 21.11,
+            "dangerousPartLength": 0.0,
+            "roadPartLength": 0.0,
+            "overloadPartLength": 0.0,
+            "cost": 0.0,
+            "diagnosticsPlan": "01.07.2019-31.07.2019 (0+000-45+000)",
+            "coatingTypes": [
+                {
+                    "code": "51835",
+                    "value": "Асфальтобетонные"
+                },
+                {
+                    "code": "1643501",
+                    "value": "Переходный"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51850",
+                    "value": "IV"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979601,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "\"Завитинск - Поярково\" - Платово",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-049",
+            "length": 26.0,
+            "square": 260000.0,
+            "normativeState": 0.33,
+            "dangerousPartLength": 0.0,
+            "roadPartLength": 0.0,
+            "overloadPartLength": 0.0,
+            "cost": 0.0,
+            "diagnosticsPlan": "01.07.2019-31.07.2019 (0+000-26+000)",
+            "coatingTypes": [
+                {
+                    "code": "1643501",
+                    "value": "Переходный"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51850",
+                    "value": "IV"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979445,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "\"Завитинск - Поярково\" - Привольное",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-051",
+            "length": 14.887,
+            "square": 160000.0,
+            "normativeState": 0.67,
+            "dangerousPartLength": 0.0,
+            "roadPartLength": 0.0,
+            "overloadPartLength": 0.0,
+            "cost": 0.0,
+            "diagnosticsPlan": "01.07.2019-31.07.2019 (0+000-14+887)",
+            "coatingTypes": [
+                {
+                    "code": "1643501",
+                    "value": "Переходный"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51850",
+                    "value": "IV"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979540,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "Завитинск - Райчихинск",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-052",
+            "length": 36.3,
+            "square": 363000.0,
+            "normativeState": 3.58,
+            "dangerousPartLength": 0.0,
+            "roadPartCount": 1,
+            "roadPartLength": 21.0,
+            "overloadPartLength": 0.0,
+            "cost": 63300.6,
+            "diagnosticsPlan": "01.07.2019-31.07.2019 (0+000-36+300)",
+            "coatingTypes": [
+                {
+                    "code": "51835",
+                    "value": "Асфальтобетонные"
+                },
+                {
+                    "code": "1643501",
+                    "value": "Переходный"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51850",
+                    "value": "IV"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979570,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "Заречное - Могилевка - Грибовка",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-053",
+            "length": 19.5,
+            "square": 195000.0,
+            "normativeState": 0.51,
+            "dangerousPartLength": 0.0,
+            "roadPartLength": 0.0,
+            "overloadPartLength": 0.0,
+            "cost": 0.0,
+            "diagnosticsPlan": "01.07.2019-31.07.2019 (0+000-19+500)",
+            "coatingTypes": [
+                {
+                    "code": "1643501",
+                    "value": "Переходный"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51850",
+                    "value": "IV"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979637,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "Заречное - Сиан",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-093",
+            "length": 41.719,
+            "square": 424000.0,
+            "normativeState": 33.39,
+            "dangerousPartLength": 0.0,
+            "roadPartCount": 1,
+            "roadPartLength": 0.007,
+            "overloadPartLength": 0.0,
+            "cost": 43932.48,
+            "diagnosticsPlan": "01.07.2019-31.07.2019 (0+000-42+400)",
+            "coatingTypes": [
+                {
+                    "code": "51835",
+                    "value": "Асфальтобетонные"
+                },
+                {
+                    "code": "1643501",
+                    "value": "Переходный"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51850",
+                    "value": "IV"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979602,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "Заречный - Муравьевка - Константиновка",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-054",
+            "length": 89.56,
+            "square": 895600.0,
+            "normativeState": 12.64,
+            "dangerousPartLength": 0.0,
+            "roadPartLength": 0.0,
+            "overloadPartLength": 0.0,
+            "cost": 0.0,
+            "diagnosticsPlan": "01.07.2019-31.07.2019 (0+000-90+477)",
+            "coatingTypes": [
+                {
+                    "code": "51835",
+                    "value": "Асфальтобетонные"
+                },
+                {
+                    "code": "1643501",
+                    "value": "Переходный"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51850",
+                    "value": "IV"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979474,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "Зельвино - Асташиха",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-055",
+            "length": 32.1,
+            "square": 321000.0,
+            "normativeState": 2.4,
+            "dangerousPartLength": 0.0,
+            "roadPartLength": 0.0,
+            "overloadPartLength": 0.0,
+            "cost": 0.0,
+            "diagnosticsPlan": "01.07.2019-31.07.2019 (0+000-32+100)",
+            "coatingTypes": [
+                {
+                    "code": "51835",
+                    "value": "Асфальтобетонные"
+                },
+                {
+                    "code": "1643501",
+                    "value": "Переходный"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51850",
+                    "value": "IV"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979413,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "Зея - Золотая Гора",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-056",
+            "length": 83.7,
+            "square": 845000.0,
+            "normativeState": 16.01,
+            "dangerousPartLength": 0.0,
+            "roadPartLength": 0.0,
+            "overloadPartLength": 0.0,
+            "cost": 0.0,
+            "diagnosticsPlan": "01.07.2019-31.07.2019 (0+000-84+500)",
+            "coatingTypes": [
+                {
+                    "code": "1643501",
+                    "value": "Переходный"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51850",
+                    "value": "IV"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979446,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "Зея - Поляковский",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-057",
+            "length": 123.737,
+            "square": 1251000.0,
+            "normativeState": 67.43,
+            "dangerousPartLength": 0.0,
+            "roadPartLength": 0.0,
+            "overloadPartLength": 0.0,
+            "cost": 0.0,
+            "diagnosticsPlan": "01.07.2019-  (0+000-123+737)",
+            "coatingTypes": [
+                {
+                    "code": "51835",
+                    "value": "Асфальтобетонные"
+                },
+                {
+                    "code": "1643501",
+                    "value": "Переходный"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51850",
+                    "value": "IV"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979603,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "Зея - Снежногорский",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-058",
+            "length": 20.0,
+            "square": 190000.0,
+            "normativeState": 23.62,
+            "dangerousPartLength": 0.0,
+            "roadPartLength": 0.0,
+            "overloadPartLength": 0.0,
+            "cost": 0.0,
+            "diagnosticsPlan": "01.07.2019-31.07.2019 (0+000-20+000)",
+            "coatingTypes": [
+                {
+                    "code": "1643501",
+                    "value": "Переходный"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51850",
+                    "value": "IV"
+                },
+                {
+                    "code": "51851",
+                    "value": "V"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "1;2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979505,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "Зея - Тыгда",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-059",
+            "length": 102.8,
+            "square": 1238400.0,
+            "normativeState": 23.3,
+            "dangerousPartLength": 0.0,
+            "roadPartCount": 8,
+            "roadPartLength": 90.718,
+            "overloadPartLength": 0.0,
+            "cost": 2455023.695,
+            "diagnosticsPlan": "01.08.2024-31.08.2024 (0+000-103+200)",
+            "coatingTypes": [
+                {
+                    "code": "51835",
+                    "value": "Асфальтобетонные"
+                },
+                {
+                    "code": "1643501",
+                    "value": "Переходный"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51849",
+                    "value": "III"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979541,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "Ивановка - Андреевка",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-060",
+            "length": 15.2,
+            "square": 91200.0,
+            "normativeState": 32.2,
+            "dangerousPartLength": 0.0,
+            "roadPartLength": 0.0,
+            "overloadPartLength": 0.0,
+            "cost": 0.0,
+            "diagnosticsPlan": "01.07.2019-31.07.2019 (0+000-15+200)",
+            "coatingTypes": [
+                {
+                    "code": "1643501",
+                    "value": "Переходный"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51850",
+                    "value": "IV"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979638,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "Ивановка - Варваровка - Панино",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-061",
+            "length": 77.912,
+            "square": 899744.0,
+            "normativeState": 21.9,
+            "dangerousPartLength": 0.0,
+            "roadPartLength": 0.0,
+            "overloadPartLength": 0.0,
+            "cost": 0.0,
+            "diagnosticsPlan": "01.07.2019-31.07.2019 (0+000-77+912)",
+            "coatingTypes": [
+                {
+                    "code": "51835",
+                    "value": "Асфальтобетонные"
+                },
+                {
+                    "code": "1643501",
+                    "value": "Переходный"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51849",
+                    "value": "III"
+                },
+                {
+                    "code": "51850",
+                    "value": "IV"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979475,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "Ивановка - Поздеевка",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-062",
+            "length": 80.4,
+            "square": 804000.0,
+            "normativeState": 17.09,
+            "dangerousPartLength": 0.0,
+            "roadPartCount": 1,
+            "roadPartLength": 1.0,
+            "overloadPartLength": 0.0,
+            "cost": 17405.0,
+            "diagnosticsPlan": "01.07.2019-31.07.2019 (0+000-80+400)",
+            "coatingTypes": [
+                {
+                    "code": "51835",
+                    "value": "Асфальтобетонные"
+                },
+                {
+                    "code": "1643501",
+                    "value": "Переходный"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51850",
+                    "value": "IV"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979476,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "Ивановка - Правовосточное",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-063",
+            "length": 12.6,
+            "square": 126000.0,
+            "normativeState": 42.27,
+            "dangerousPartLength": 0.0,
+            "roadPartLength": 0.0,
+            "overloadPartLength": 0.0,
+            "cost": 0.0,
+            "diagnosticsPlan": "01.07.2019-31.07.2019 (0+000-12+600)",
+            "coatingTypes": [
+                {
+                    "code": "1643501",
+                    "value": "Переходный"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51850",
+                    "value": "IV"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979447,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "Ивановка - Толстовка",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-064",
+            "length": 16.0,
+            "square": 160000.0,
+            "normativeState": 33.31,
+            "dangerousPartLength": 0.0,
+            "roadPartLength": 0.0,
+            "overloadPartLength": 0.0,
+            "cost": 0.0,
+            "diagnosticsPlan": "01.07.2019-31.07.2019 (0+000-16+000)",
+            "coatingTypes": [
+                {
+                    "code": "51837",
+                    "value": "Из щебня, гравия и песка, обработанных вяжущими"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51850",
+                    "value": "IV"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979639,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "Ивановка - Черемхово",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-065",
+            "length": 11.4,
+            "square": 114000.0,
+            "normativeState": 6.49,
+            "dangerousPartLength": 0.0,
+            "roadPartLength": 0.0,
+            "overloadPartLength": 0.0,
+            "cost": 0.0,
+            "diagnosticsPlan": "01.07.2019-31.07.2019 (0+000-11+400)",
+            "coatingTypes": [
+                {
+                    "code": "1643501",
+                    "value": "Переходный"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51850",
+                    "value": "IV"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979604,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "Камышенка - Белый Яр",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-066",
+            "length": 15.3,
+            "square": 153000.0,
+            "normativeState": 0.0,
+            "dangerousPartLength": 0.0,
+            "roadPartLength": 0.0,
+            "overloadPartLength": 0.0,
+            "cost": 0.0,
+            "diagnosticsPlan": "01.07.2019-31.07.2019 (0+000-15+300)",
+            "coatingTypes": [
+                {
+                    "code": "1643501",
+                    "value": "Переходный"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51850",
+                    "value": "IV"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979506,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "Каховка - Серединное",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-067",
+            "length": 6.87,
+            "square": 75000.0,
+            "normativeState": 51.53,
+            "dangerousPartLength": 0.0,
+            "roadPartLength": 0.0,
+            "overloadPartLength": 0.0,
+            "cost": 0.0,
+            "diagnosticsPlan": "01.07.2019-31.07.2019 (0+000-6+870)",
+            "coatingTypes": [
+                {
+                    "code": "1643501",
+                    "value": "Переходный"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51850",
+                    "value": "IV"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979605,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "Константиновка - Новопетровка",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-068",
+            "length": 27.8,
+            "square": 278000.0,
+            "normativeState": 0.0,
+            "dangerousPartLength": 0.0,
+            "roadPartLength": 0.0,
+            "overloadPartLength": 0.0,
+            "cost": 0.0,
+            "diagnosticsPlan": "01.07.2019-31.07.2019 (0+000-27+800)",
+            "coatingTypes": [
+                {
+                    "code": "51837",
+                    "value": "Из щебня, гравия и песка, обработанных вяжущими"
+                },
+                {
+                    "code": "1643501",
+                    "value": "Переходный"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51850",
+                    "value": "IV"
+                },
+                {
+                    "code": "51851",
+                    "value": "V"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979571,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "Короли - Верхнебелое",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-069",
+            "length": 18.353,
+            "square": 20000.0,
+            "normativeState": 69.43,
+            "dangerousPartLength": 0.0,
+            "roadPartLength": 0.0,
+            "overloadPartLength": 0.0,
+            "cost": 0.0,
+            "diagnosticsPlan": "01.07.2019-31.07.2019 (0+000-18+353)",
+            "coatingTypes": [
+                {
+                    "code": "1643501",
+                    "value": "Переходный"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51850",
+                    "value": "IV"
+                },
+                {
+                    "code": "51851",
+                    "value": "V"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979640,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "Крестовоздвиженка - Коврижка",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-070",
+            "length": 10.4,
+            "square": 104000.0,
+            "normativeState": 1.92,
+            "dangerousPartLength": 0.0,
+            "roadPartLength": 0.0,
+            "overloadPartLength": 0.0,
+            "cost": 0.0,
+            "diagnosticsPlan": "01.07.2019-31.07.2019 (0+000-10+400)",
+            "coatingTypes": [
+                {
+                    "code": "1643501",
+                    "value": "Переходный"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51850",
+                    "value": "IV"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979572,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "Крестовоздвиженка - Поярково - Калинино",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-071",
+            "length": 116.7,
+            "square": 1179760.0,
+            "normativeState": 5.27,
+            "dangerousPartLength": 0.0,
+            "roadPartCount": 1,
+            "roadPartLength": 0.31,
+            "overloadPartLength": 0.0,
+            "cost": 216237.352,
+            "diagnosticsPlan": "01.08.2024-31.08.2024 (0+000-117+976)",
+            "coatingTypes": [
+                {
+                    "code": "51835",
+                    "value": "Асфальтобетонные"
+                },
+                {
+                    "code": "51837",
+                    "value": "Из щебня, гравия и песка, обработанных вяжущими"
+                },
+                {
+                    "code": "1643501",
+                    "value": "Переходный"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51850",
+                    "value": "IV"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979477,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "Куропатино - Корфово",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-072",
+            "length": 25.0,
+            "square": 250000.0,
+            "normativeState": 2.74,
+            "dangerousPartLength": 0.0,
+            "roadPartLength": 0.0,
+            "overloadPartLength": 0.0,
+            "cost": 0.0,
+            "diagnosticsPlan": "01.07.2019-31.07.2019 (0+000-25+000)",
+            "coatingTypes": [
+                {
+                    "code": "51837",
+                    "value": "Из щебня, гравия и песка, обработанных вяжущими"
+                },
+                {
+                    "code": "1643501",
+                    "value": "Переходный"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51850",
+                    "value": "IV"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979507,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "Ларба - Усть-Уркима",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-073",
+            "length": 23.0,
+            "square": 230000.0,
+            "normativeState": 16.22,
+            "dangerousPartLength": 0.0,
+            "roadPartLength": 0.0,
+            "overloadPartLength": 0.0,
+            "cost": 0.0,
+            "diagnosticsPlan": "01.07.2019-31.07.2019 (0+000-23+000)",
+            "coatingTypes": [
+                {
+                    "code": "1643501",
+                    "value": "Переходный"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51850",
+                    "value": "IV"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979573,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "Липовка - Лебяжье",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-074",
+            "length": 9.0,
+            "square": 72000.0,
+            "normativeState": 35.47,
+            "dangerousPartLength": 0.0,
+            "roadPartLength": 0.0,
+            "overloadPartLength": 0.0,
+            "cost": 0.0,
+            "diagnosticsPlan": "01.07.2019-31.07.2019 (0+000-9+000)",
+            "coatingTypes": [
+                {
+                    "code": "1643501",
+                    "value": "Переходный"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51851",
+                    "value": "V"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "1",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979574,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "Лозовое - Камышевка",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-075",
+            "length": 20.056,
+            "square": 200560.0,
+            "normativeState": 24.44,
+            "dangerousPartLength": 0.0,
+            "roadPartLength": 0.0,
+            "overloadPartLength": 0.0,
+            "cost": 0.0,
+            "diagnosticsPlan": "01.07.2019-31.07.2019 (0+000-20+056)",
+            "coatingTypes": [
+                {
+                    "code": "51837",
+                    "value": "Из щебня, гравия и песка, обработанных вяжущими"
+                },
+                {
+                    "code": "1643501",
+                    "value": "Переходный"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51850",
+                    "value": "IV"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979508,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "Лозовое - Садовое - Лермонтовка",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-076",
+            "length": 16.5,
+            "square": 165000.0,
+            "normativeState": 14.35,
+            "dangerousPartLength": 0.0,
+            "roadPartLength": 0.0,
+            "overloadPartLength": 0.0,
+            "cost": 0.0,
+            "diagnosticsPlan": "01.07.2019-31.07.2019 (0+000-16+500)",
+            "coatingTypes": [
+                {
+                    "code": "51837",
+                    "value": "Из щебня, гравия и песка, обработанных вяжущими"
+                },
+                {
+                    "code": "1643500",
+                    "value": "Капитальный"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51850",
+                    "value": "IV"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979509,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "Луговое - Новоалексеевка - Троицкое",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-077",
+            "length": 42.8,
+            "square": 428000.0,
+            "normativeState": 49.78,
+            "dangerousPartLength": 0.0,
+            "roadPartLength": 0.0,
+            "overloadPartLength": 0.0,
+            "cost": 0.0,
+            "diagnosticsPlan": "01.07.2019-31.07.2019 (0+000-42+800)",
+            "coatingTypes": [
+                {
+                    "code": "51837",
+                    "value": "Из щебня, гравия и песка, обработанных вяжущими"
+                },
+                {
+                    "code": "1643500",
+                    "value": "Капитальный"
+                },
+                {
+                    "code": "1643501",
+                    "value": "Переходный"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51850",
+                    "value": "IV"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979606,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "Любимое - Морозовка",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-078",
+            "length": 6.493,
+            "square": 67000.0,
+            "normativeState": 26.38,
+            "dangerousPartLength": 0.0,
+            "roadPartLength": 0.0,
+            "overloadPartLength": 0.0,
+            "cost": 0.0,
+            "diagnosticsPlan": "01.07.2019-31.07.2019 (0+000-6+493)",
+            "coatingTypes": [
+                {
+                    "code": "1643501",
+                    "value": "Переходный"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51850",
+                    "value": "IV"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979478,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "Магдагачи - Гонжа",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-079",
+            "length": 34.206,
+            "square": 342060.0,
+            "normativeState": 81.21,
+            "dangerousPartLength": 0.0,
+            "roadPartLength": 0.0,
+            "overloadPartLength": 0.0,
+            "cost": 0.0,
+            "diagnosticsPlan": "01.07.2019-31.07.2019 (0+000-34+206)",
+            "coatingTypes": [
+                {
+                    "code": "1643501",
+                    "value": "Переходный"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51850",
+                    "value": "IV"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979575,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "Магдагачи - Толбузино",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-080",
+            "length": 46.293,
+            "square": 370344.0,
+            "normativeState": 94.01,
+            "dangerousPartLength": 0.0,
+            "roadPartLength": 0.0,
+            "overloadPartLength": 0.0,
+            "cost": 0.0,
+            "diagnosticsPlan": "01.07.2019-31.07.2019 (0+000-46+293)",
+            "coatingTypes": [
+                {
+                    "code": "1643501",
+                    "value": "Переходный"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51851",
+                    "value": "V"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979510,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "Магдагачи - Тыгда",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-081",
+            "length": 57.994,
+            "square": 550943.0,
+            "normativeState": 76.84,
+            "dangerousPartLength": 0.0,
+            "roadPartLength": 0.0,
+            "overloadPartLength": 0.0,
+            "cost": 0.0,
+            "diagnosticsPlan": "01.07.2019-31.07.2019 (0+000-57+994)",
+            "coatingTypes": [
+                {
+                    "code": "1643501",
+                    "value": "Переходный"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51850",
+                    "value": "IV"
+                },
+                {
+                    "code": "51851",
+                    "value": "V"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979607,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "Максимовка - Трудовой",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-082",
+            "length": 34.55,
+            "square": 302900.0,
+            "normativeState": 7.33,
+            "dangerousPartLength": 0.0,
+            "roadPartLength": 0.0,
+            "overloadPartLength": 0.0,
+            "cost": 0.0,
+            "diagnosticsPlan": "01.07.2019-31.07.2019 (0+000-34+550)",
+            "coatingTypes": [
+                {
+                    "code": "1643483",
+                    "value": "Грунтовые"
+                },
+                {
+                    "code": "1643501",
+                    "value": "Переходный"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51850",
+                    "value": "IV"
+                },
+                {
+                    "code": "51851",
+                    "value": "V"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "1;2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 131709685,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Диденко Елена Анатольевна 11.01.2023",
+            "name": "Мостовой переход через протоку Каникурганская в составе пограничного мостового перехода через р. Амур с границей КНР",
+            "info": "Амурская область,р-н. Благовещенский",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10А-246",
+            "length": 0.278,
+            "square": 2085.0,
+            "normativeState": 0.0,
+            "dangerousPartLength": 0.0,
+            "roadPartLength": 0.0,
+            "overloadPartLength": 0.0,
+            "cost": 0.0,
+            "coatingTypes": [
+                {
+                    "code": "51835",
+                    "value": "Асфальтобетонные"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51848",
+                    "value": "II"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979511,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "\"Мостовой переход через р. Селемджа\"",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-027",
+            "length": 10.018,
+            "square": 18570.0,
+            "normativeState": 100.0,
+            "dangerousPartLength": 0.0,
+            "roadPartLength": 0.0,
+            "overloadPartLength": 0.0,
+            "cost": 0.0,
+            "coatingTypes": [
+                {
+                    "code": "1643501",
+                    "value": "Переходный"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51850",
+                    "value": "IV"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 131709687,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Диденко Елена Анатольевна 11.01.2023",
+            "name": "Мост через реку Зея",
+            "info": "Амурская область,г. Благовещенск",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-248",
+            "length": 1.771,
+            "square": 12394.0,
+            "normativeState": 0.0,
+            "dangerousPartLength": 0.0,
+            "roadPartLength": 0.0,
+            "overloadPartLength": 0.0,
+            "cost": 0.0,
+            "coatingTypes": [
+                {
+                    "code": "51835",
+                    "value": "Асфальтобетонные"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51849",
+                    "value": "III"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979542,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "Муравьевка - Корфово",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-083",
+            "length": 16.7,
+            "square": 133600.0,
+            "normativeState": 88.56,
+            "dangerousPartLength": 0.0,
+            "roadPartLength": 0.0,
+            "overloadPartLength": 0.0,
+            "cost": 0.0,
+            "diagnosticsPlan": "01.07.2019-31.07.2019 (0+000-16+700)",
+            "coatingTypes": [
+                {
+                    "code": "51837",
+                    "value": "Из щебня, гравия и песка, обработанных вяжущими"
+                },
+                {
+                    "code": "1643501",
+                    "value": "Переходный"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51851",
+                    "value": "V"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "1",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979479,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "Нижние Бузули - Новоострополь",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-084",
+            "length": 11.2,
+            "square": 89600.0,
+            "normativeState": 54.1,
+            "dangerousPartLength": 0.0,
+            "roadPartLength": 0.0,
+            "overloadPartLength": 0.0,
+            "cost": 0.0,
+            "diagnosticsPlan": "01.07.2019-31.07.2019 (0+000-11+200)",
+            "coatingTypes": [
+                {
+                    "code": "51837",
+                    "value": "Из щебня, гравия и песка, обработанных вяжущими"
+                },
+                {
+                    "code": "1643501",
+                    "value": "Переходный"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51851",
+                    "value": "V"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "1",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979414,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "Нижняя Полтавка - Зеньковка",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-085",
+            "length": 25.4,
+            "square": 254000.0,
+            "normativeState": 6.2,
+            "dangerousPartLength": 0.0,
+            "roadPartLength": 0.0,
+            "overloadPartLength": 0.0,
+            "cost": 0.0,
+            "diagnosticsPlan": "01.07.2019-31.07.2019 (0+000-25+400)",
+            "coatingTypes": [
+                {
+                    "code": "51837",
+                    "value": "Из щебня, гравия и песка, обработанных вяжущими"
+                },
+                {
+                    "code": "1643501",
+                    "value": "Переходный"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51850",
+                    "value": "IV"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "1",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979543,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "Николаевка - Лермонтовка",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-086",
+            "length": 18.3,
+            "square": 109800.0,
+            "normativeState": 10.63,
+            "dangerousPartLength": 0.0,
+            "roadPartLength": 0.0,
+            "overloadPartLength": 0.0,
+            "cost": 0.0,
+            "diagnosticsPlan": "01.07.2019-31.07.2019 (0+000-18+300)",
+            "coatingTypes": [
+                {
+                    "code": "51837",
+                    "value": "Из щебня, гравия и песка, обработанных вяжущими"
+                },
+                {
+                    "code": "1643501",
+                    "value": "Переходный"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51850",
+                    "value": "IV"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979576,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "Нововоскресеновка - Аносово",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-087",
+            "length": 7.0,
+            "square": 56000.0,
+            "normativeState": 92.11,
+            "dangerousPartLength": 0.0,
+            "roadPartLength": 0.0,
+            "overloadPartLength": 0.0,
+            "cost": 0.0,
+            "diagnosticsPlan": "01.07.2019-31.07.2019 (0+000-7+000)",
+            "coatingTypes": [
+                {
+                    "code": "1643483",
+                    "value": "Грунтовые"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51851",
+                    "value": "V"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "1",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979480,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "Новороссийка - Климовка - Рогозовка",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-088",
+            "length": 30.394,
+            "square": 309000.0,
+            "normativeState": 44.16,
+            "dangerousPartLength": 0.0,
+            "roadPartLength": 0.0,
+            "overloadPartLength": 0.0,
+            "cost": 0.0,
+            "diagnosticsPlan": "01.07.2019-31.07.2019 (0+000-30+394)",
+            "coatingTypes": [
+                {
+                    "code": "1643501",
+                    "value": "Переходный"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51850",
+                    "value": "IV"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979481,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "Новоспасск - Иннокентьевка",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-089",
+            "length": 55.8,
+            "square": 558000.0,
+            "normativeState": 0.39,
+            "dangerousPartLength": 0.0,
+            "roadPartLength": 0.0,
+            "overloadPartLength": 0.0,
+            "cost": 0.0,
+            "diagnosticsPlan": "01.07.2019-31.07.2019 (0+000-55+800)",
+            "coatingTypes": [
+                {
+                    "code": "51837",
+                    "value": "Из щебня, гравия и песка, обработанных вяжущими"
+                },
+                {
+                    "code": "1643501",
+                    "value": "Переходный"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51850",
+                    "value": "IV"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979608,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "Новотроицкое - Ключи",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-090",
+            "length": 8.8,
+            "square": 70400.0,
+            "normativeState": 37.84,
+            "dangerousPartLength": 0.0,
+            "roadPartCount": 1,
+            "roadPartLength": 1.5,
+            "overloadPartLength": 0.0,
+            "cost": 38773.0,
+            "diagnosticsPlan": "01.07.2019-31.07.2019 (0+000-8+800)",
+            "coatingTypes": [
+                {
+                    "code": "51835",
+                    "value": "Асфальтобетонные"
+                },
+                {
+                    "code": "1643501",
+                    "value": "Переходный"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51851",
+                    "value": "V"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "1",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979482,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "Обход г. Завитинск",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-091",
+            "length": 6.6,
+            "square": 66000.0,
+            "normativeState": 6.2,
+            "dangerousPartLength": 0.0,
+            "roadPartCount": 1,
+            "roadPartLength": 6.6,
+            "overloadPartLength": 0.0,
+            "cost": 198000.0,
+            "diagnosticsPlan": "01.07.2019-31.07.2019 (0+000-6+600)",
+            "coatingTypes": [
+                {
+                    "code": "51835",
+                    "value": "Асфальтобетонные"
+                },
+                {
+                    "code": "1643501",
+                    "value": "Переходный"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51850",
+                    "value": "IV"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979512,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "Обход г. Свободного на участке км 0 - км 4",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-092",
+            "length": 4.268,
+            "square": 42680.0,
+            "normativeState": 18.6,
+            "dangerousPartLength": 0.0,
+            "roadPartLength": 0.0,
+            "overloadPartLength": 0.0,
+            "cost": 0.0,
+            "diagnosticsPlan": "01.07.2019-31.07.2019 (0+000-4+268)",
+            "coatingTypes": [
+                {
+                    "code": "51835",
+                    "value": "Асфальтобетонные"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51849",
+                    "value": "III"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979415,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "Обход г. Свободного на участке км 5 - км 11",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-092",
+            "length": 5.766,
+            "square": 57660.0,
+            "normativeState": 18.6,
+            "dangerousPartLength": 0.0,
+            "roadPartLength": 0.0,
+            "overloadPartLength": 0.0,
+            "cost": 0.0,
+            "diagnosticsPlan": "01.07.2019-31.07.2019 (5+000-10+766)",
+            "coatingTypes": [
+                {
+                    "code": "51835",
+                    "value": "Асфальтобетонные"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51849",
+                    "value": "III"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        },
+        {
+            "id": 1979513,
+            "level": 1,
+            "isChecked": true,
+            "isCheckedTranscript": "Информация проверена: Зеленин Александр Анатольевич 06.07.2020",
+            "name": "Обход г. Шимановск",
+            "info": "Амурская область",
+            "value": "автомобильная дорога регионального или межмуниципального значения",
+            "roadValueRc": "2",
+            "uniqueId": "10 ОП РЗ 10К-094",
+            "length": 7.4,
+            "square": 74000.0,
+            "normativeState": 76.08,
+            "dangerousPartLength": 0.0,
+            "roadPartCount": 1,
+            "roadPartLength": 0.674,
+            "overloadPartLength": 0.0,
+            "cost": 197623.71,
+            "diagnosticsPlan": "01.08.2024-31.08.2024 (0+000-7+400)",
+            "coatingTypes": [
+                {
+                    "code": "51835",
+                    "value": "Асфальтобетонные"
+                }
+            ],
+            "categories": [
+                {
+                    "code": "51850",
+                    "value": "IV"
+                }
+            ],
+            "classes": [
+                {
+                    "code": "1643178",
+                    "value": "Обычная автомобильная дорога (нескоростная автомобильная дорога)"
+                }
+            ],
+            "numberOfLanes": "2",
+            "hasGeometry": true,
+            "typeCode": 4,
+            "children": []
+        }
+    ]
+}
