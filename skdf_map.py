@@ -2,19 +2,31 @@ import requests
 import json
 import csv
 
-headers = {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:125.0) Gecko/20100101 Firefox/125.0'}
+headers = {'Host': 'xn--d1aluo.xn--p1ai',
+'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:125.0) Gecko/20100101 Firefox/125.0',
+'Accept': 'application/json, text/plain, */*',
+'Accept-Language': 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3',
+'Accept-Encoding': 'gzip, deflate, br',
+'Content-Type': 'application/json',
+'Access-Control-Allow-Origin': '*',
+'Content-Profile': 'gis_api_public',
+'Content-Length': '112',
+'Origin': 'https://xn--d1aluo.xn--p1ai',
+'Connection': 'keep-alive',
+'Referer': 'https://xn--d1aluo.xn--p1ai/map',
+'Sec-Fetch-Dest': 'empty',
+'Sec-Fetch-Mode': 'cors',
+'Sec-Fetch-Site': 'same-origin',
+'TE': 'trailers',}
 
-search_param = json.dumps({"p_box":[4206559.671288764,7472660.224101382,4234612.060669424,7485845.611480576],"p_scale_factor":1,"p_zoom":14})
-print(search_param)
 
+url = 'https://xn--d1aluo.xn--p1ai/api-pg/rpc/get_road_lr_geobox'
+search_param = json.dumps({"p_box":[9231462.74020062,7393951.84912952,9245527.153405093,7400812.072418116],"p_scale_factor":1,"p_zoom":14})
 
-session = requests.Session()
-session.headers.update(headers)
-
-response = session.get('https://xn--d1aluo.xn--p1ai/map')
-json_resp = session.post('https://xn--d1aluo.xn--p1ai/api-pg/rpc/get_road_lr_geobox', data=search_param)
+json_resp = requests.post(url, data=search_param, headers=headers)
 
 print(json_resp.text)
+
 
 
 
