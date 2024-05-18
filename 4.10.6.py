@@ -39,3 +39,4 @@ for link in list_of_links:
 
 with open('res.json', 'w', encoding='utf-8') as file:
     json.dump(json_list, file, indent=4, ensure_ascii=False)
+

@@ -19,7 +19,7 @@ numbers = [1, 2, 3, 4, 8, 9, 11, 12, 13, 14, 15, 16, 17, 22, 23, 28, 29, 33, 34,
 480, 485, 486, 487, 488, 491, 492, 499, 500, 505, 506, 508, 509, 513, 514, 518, 519]
 
 
-with webdriver.Chrome() as browser:
+with webdriver.Edge() as browser:
     browser.get('https://parsinger.ru/selenium/5/5.html')
     input_form = browser.find_elements(By.CLASS_NAME, 'check')
     for checkbox in input_form:
