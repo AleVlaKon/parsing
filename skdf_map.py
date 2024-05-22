@@ -21,11 +21,11 @@ headers = {'Host': 'xn--d1aluo.xn--p1ai',
 
 
 url = 'https://xn--d1aluo.xn--p1ai/api-pg/rpc/get_road_lr_geobox'
-search_param = json.dumps({"p_box":[7779486.911479246,7179693.189918597,8580852.716021035,7561266.835118198],"p_scale_factor":1,"p_zoom":14})
+search_param = json.dumps({"p_box":[7633214.094586074,8320471.824715334,9428567.014948294,8993729.169851167],"p_scale_factor":1,"p_zoom":14})
 
 json_resp = requests.post(url, data=search_param, headers=headers)
 
-with open('res1.json', 'w', encoding='utf-8') as file:
+with open('res3.json', 'w', encoding='utf-8') as file:
     json.dump(json_resp.json(), file, indent=4, ensure_ascii=False)
 
 

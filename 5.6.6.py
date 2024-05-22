@@ -4,10 +4,27 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.select import Select
 from timeit import Timer
 
+def base_func():
+    '''
+    решение задачи через словарь
+    '''
+    list_of_life_cookies = {}
+    with webdriver.Edge() as browser:
+        browser.get('https://parsinger.ru/methods/5/index.html')
+        elements = browser.find_elements(By.TAG_NAME, 'a')
+        urls = [el.get_attribute('href') for el in elements]
 
+        for url in urls:
+            browser.get(url)
+            tag_p = int(browser.find_element(By.TAG_NAME, 'p').text)
+            cookie_expire = int(browser.get_cookie('foo2')['expiry'])
+    return tag_p, cookie_expire    
 
 
 def dict_func():
+    '''
+    решение задачи через словарь
+    '''
     list_of_life_cookies = {}
     with webdriver.Edge() as browser:
         browser.get('https://parsinger.ru/methods/5/index.html')
@@ -22,6 +39,9 @@ def dict_func():
     return list_of_life_cookies[max(list_of_life_cookies.keys())]
 
 def two_way_func():
+    '''
+    решение задачи 2 переменные
+    '''
     max_life = 0
     tag = 0
     with webdriver.Edge() as browser:
