@@ -7,7 +7,23 @@ from selenium.webdriver import Keys
 
 count = 0
 
-with webdriver.Edge() as browser:
-    browser.get('http://parsinger.ru/infiniti_scroll_1/')
-    all_squares = browser.find_elements(By.TAG_NAME, 'span')
-    print(len(all_squares))
+with webdriver.Chrome() as browser:
+    browser.get('https://parsinger.ru/infiniti_scroll_1/')
+    actions = ActionChains(browser)
+    list_of_elements = []
+    count = 0
+    while True:
+        elements = browser.find_elements(By.TAG_NAME, 'input')
+        for element in elements:
+            if element not in list_of_elements:
+                element.send_keys(Keys.DOWN)
+                browser.execute_script("return arguments[0].scrollIntoView(true);", element)
+                element.click()
+                list_of_elements.append(element)
+                # count += int(element.text)
+
+
+
+
+
+
