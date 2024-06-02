@@ -19,6 +19,7 @@ with webdriver.Chrome() as browser:
                 element.send_keys(Keys.DOWN)
                 browser.execute_script("return arguments[0].scrollIntoView(true);", element)
                 element.click()
+                time.sleep(1)
                 list_of_elements.append(element)
                 # count += int(element.text)
 
